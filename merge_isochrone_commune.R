@@ -67,6 +67,7 @@ if (dir.exists(OUTPUT_DIR) == FALSE) {
   dir.create(path=OUTPUT_DIR)
 }
 
+#OK
 readr::write_csv(x = out,
                  path = file.path(OUTPUT_DIR, ISOCHRONE_FILENAME),
                  quote_escape = "backslash")
